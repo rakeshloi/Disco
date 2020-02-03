@@ -1,0 +1,22 @@
+{
+  "name": "disco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakeshloi/disco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakeshloi/disco/issues"
+  },
+  "homepage": "https://github.com/rakeshloi/disco#readme",
+  "dependencies": {
+    "cypress": "^3.8.3"
+  }
+}
