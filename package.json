@@ -18,5 +18,8 @@
   "homepage": "https://github.com/rakeshloi/disco#readme",
   "dependencies": {
     "cypress": "^3.8.3"
+  },
+  "devDependencies": {
+    "@percy/cypress": "^2.2.0"
   }
 }
