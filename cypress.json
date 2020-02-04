@@ -1,4 +1,5 @@
 {
   "projectId": "7ghj65",
-  "baseUrl": "https://www.eurosportplayer.com/"
+  "baseUrl": "https://www.eurosportplayer.com/",
+  "testFiles": "**/*.feature"
 }

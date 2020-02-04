@@ -3,12 +3,7 @@ import '@percy/cypress';
 describe('My First Test', function() {
     it('Gets, types and asserts', function() {
       cy.visit('/login?flow=login')
-  
-      //cy.contains('SIGN IN').click()
-  
-      // Should be on a new URL which includes '/commands/actions'
-      //cy.url().should('include', '/commands/actions')
-  
+    
       // Get an input, type into it and verify that the value has been updated
       cy.get('input[name="email"]')
         .type('fake@email.com')

@@ -17,9 +17,15 @@
   },
   "homepage": "https://github.com/rakeshloi/disco#readme",
   "dependencies": {
+    "cosmiconfig": "^6.0.0",
     "cypress": "^3.8.3"
   },
   "devDependencies": {
-    "@percy/cypress": "^2.2.0"
+    "@percy/cypress": "^2.2.0",
+    "cypress-cucumber-preprocessor": "^2.0.1",
+    "picklejs": "https://github.com/hoverinc/picklejs"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
