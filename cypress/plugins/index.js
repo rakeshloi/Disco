@@ -19,6 +19,5 @@ module.exports = (on, config) => {
   on("task", percyHealthCheck)
 }
 
-// In cypress/plugins/index.js
 
 

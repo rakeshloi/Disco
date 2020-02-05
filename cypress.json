@@ -1,5 +1,6 @@
 {
   "projectId": "7ghj65",
-  "baseUrl": "https://www.eurosportplayer.com/",
-  "testFiles": "**/*.feature"
+  "baseUrl": "https://www.eurosportplayer.com",
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false
 }
