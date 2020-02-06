@@ -15,7 +15,6 @@ Given('I open Home page', () => {
 //When
 When('I sign in', () => {
   signinPage.signin();
-  basePage.percySnapshot("sign-in");
 })
 
 //Then
