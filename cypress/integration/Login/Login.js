@@ -1,9 +1,6 @@
 import { homePage } from '/Users/rakeshloi/Develop/Disco/cypress/integration/Pages/home';
 import { signinPage } from '/Users/rakeshloi/Develop/Disco/cypress/integration/Pages/sign-in';
 import { basePage } from '/Users/rakeshloi/Develop/Disco/cypress/integration/Pages/base';
-import { Then } from "cypress-cucumber-preprocessor/steps";
-import { When} from "cypress-cucumber-preprocessor/steps";
-import { Given } from "cypress-cucumber-preprocessor/steps";
 
 //Given
 Given('I open Home page', () => {

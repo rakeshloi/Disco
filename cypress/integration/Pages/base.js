@@ -1,4 +1,7 @@
 import '@percy/cypress';
+import { Then } from "cypress-cucumber-preprocessor/steps";
+import { When} from "cypress-cucumber-preprocessor/steps";
+import { Given } from "cypress-cucumber-preprocessor/steps";
 
 export const basePage = {
     percySnapshot(snapshot) {
