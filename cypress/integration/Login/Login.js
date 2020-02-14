@@ -6,12 +6,12 @@ import { basePage } from '/Users/rakeshloi/Develop/Disco/cypress/integration/Pag
 Given('I open Home page', () => {
   homePage.gotoHome();
   basePage.percySnapshot("home-loggedOut");
-  basePage.cookieMonster();
 })
 
 //When
 When('I sign in', () => {
-  signinPage.signin();
+  signinPage.clickSignin();
+  signinPage.enterLoginInfo();
 })
 
 //Then
