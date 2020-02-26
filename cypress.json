@@ -1,6 +1,11 @@
 {
   "projectId": "7ghj65",
-  "baseUrl": "https://www.eurosportplayer.com",
   "testFiles": "**/*.feature",
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "baseUrl": "https://www.eurosportplayer.com",
+  "env": {
+    "userid":"gb+eurosport@test.com",
+    "pword":"testes1",
+    "menubarjson":"https://eu3-prod-direct.eurosportplayer.com/cms/collections/web-menubar?include=default"
+  }
 }

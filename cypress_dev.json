@@ -1,0 +1,11 @@
+{
+  "projectId": "7ghj65",
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "baseUrl": "https://test-eurosport.concert.mercury.dnitv.com/",
+  "env": {
+    "userid":"gb@es.com",
+    "pword":"testES1",
+    "menubarjson":"https://eu1-test-direct.mercury.dnitv.com/cms/collections/web-menubar?include=default"
+  }
+}
